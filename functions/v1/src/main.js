@@ -53,7 +53,7 @@ async function createPdf({ id, date, name, items, total }) {
     size: 10,
   });
 
-  page.drawText(`Total Price3: $${total}`, { x: 50, y: 600, size: 15 });
+  page.drawText(`Total Price4: $${total}`, { x: 50, y: 600, size: 15 });
 
   const orderList = items
     .map(
