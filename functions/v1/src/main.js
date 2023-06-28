@@ -1,4 +1,4 @@
 module.exports = async ({ req, res, log }) => {
-  log("Works XYZ");
+  log("Works XYZA");
   return res.json(req.headers);
 };
